@@ -14,7 +14,7 @@ export default class Home extends Component {
     const arr = ['a', 'b', 'c']
     return (
       <div>
-        <div className="hello" onClick={this.handleClick.bind(this)}>你好，世界!!ss!11<i className="icon-user"></i></div>
+        <div className="hello" onClick={this.handleClick.bind(this)}>你好，世界<i className="icon-user"></i></div>
         <p style={{color:"#faf",fontSize:"22px"}}>这是一段文本</p>
         {arr.map((item, index) => { return <p key={index}>this is {item}</p> })}
         <Link to="/list">to list</Link>
